@@ -16,17 +16,17 @@ include 'menu.php';
     <h3 class="altaTitulo">FORMULARIO DE ALTA</h3>
 	<form class="altaInput" action="altas.php" method="POST" enctype="multipart/form-data">
 		<div class="grupoInputs">
-		<label for="apellido">Apellido:</label>
+		<label for="apellido">Usuario:</label>
 		<input type="text" name="apellido"><br>
 		</div>
 		
 		<div class="grupoInputs">
-		<label for="nombre">Nombre:</label>
+		<label for="nombre">Publicacion:</label>
 		<input type="text" name="nombre"><br>
         </div>
 
 		<div class="grupoInputs">
-		<label for="edad">Edad:</label>
+		<label for="edad">Precio</label>
 		<input type="number" name="edad"><br>
 	    </div>
 
